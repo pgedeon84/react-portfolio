@@ -4,16 +4,21 @@
      font-family: 'Roboto Condensed',
      sans-serif;
  }
-
  
  :root {
      --primary-white: #f6f6f6;
      --primary-orange: #fa685b;
+     --primary-purple: #6A49Ca;
     }
     
 /****************************** NAVBAR ***********************/
 
 /* .logo{}  for image sizing*/ 
+
+.navbar {
+    background-color: #101133 !important;
+    z-index: 100;
+}
 
 .navbar-brand {
     max-width: 17.25rem;
@@ -24,7 +29,7 @@
     background-color: var(--primary-orange);
     font-weight: bold;
     padding: .5rem !important;
-    border-radius: 5px;
+    border-radius: 0 1.5rem 0 1.5rem;
 }
 
 /* ---- MENU LINKS ----*/
@@ -40,13 +45,13 @@
  .navbar-nav>li>a {
      color: var(--primary-white) !important;
      margin: 0 0.75rem;
-     border-bottom: 0.1875rem solid transparent;
+     border-top: 0.1875rem solid transparent;
  }
 
  .navbar-nav>li>a:active,
  .navbar-nav>li>a:focus,
  .navbar-nav>li>a:hover {
-     border-bottom: 0.1875rem solid var(--primary-orange);
+     border-top: 0.1875rem solid var(--primary-orange);
      
  }
 
@@ -54,4 +59,96 @@
     outline: none ;
  }
 
+ /****************************** HEADER ***********************/
 
+.header-wrapper {
+    position: relative;
+    background: url('./components/assets/images/background-img.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-info h1 {
+    color: var(--primary-orange);
+}
+
+/* -------- Main Offer Button --------- */
+
+.typed {
+     color: #f6f6f6;
+     font-size: 2rem;
+}
+
+/* -------- Main Offer Button --------- */
+
+.btn-main-offer {
+    border: 2px solid var(--primary-purple);
+    text-transform: uppercase;
+    color: var(--primary-orange);
+    padding:0.625rem 0.75rem 0.75rem 0.75rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 6px 33px 3px rgba(0, 0, 0, 0.61);
+    z-index: 10;
+}
+
+.btn-main-offer:hover {
+    text-decoration: none !important;
+    color: var(--primary-white);
+    background-color: var(--primary-orange);
+    border: 2px solid var(--primary-orange);
+    transition: 100ms ease-in-out;
+}
+
+ /* -------- Particles --------- */
+
+.tsparticles-canvas-el {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+@media(max-width: 768px) {
+    .particles-canvas {
+        display: none;
+    }
+
+     .main-info h1 {
+         font-size: 1.5rem !important;
+     }
+
+     .btn-main-offer {
+          padding:0.225rem 0.35rem 0.35rem 0.35rem; 
+     }
+
+     .btn-main-offer a {
+            font-size: .8rem !important;
+     } 
+
+    .typed {
+        font-size: 1.1rem;
+    }
+    
+    .navbar-brand {
+        max-width: 9.25rem;
+        padding: 0 !important;
+        margin: .2rem 0;
+        font-size: 1.5rem !important;
+        padding: .3rem !important;
+    }
+}

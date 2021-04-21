@@ -7,7 +7,7 @@ function Navbar() {
     <FontAwesomeIcon icon={faBars} style={{ color: "#f6f6f6" }} />
   );
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#">
           Webify.io
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                about me
+                about us
               </a>
             </li>
             <li className="nav-item">
@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                how i work
+                how we work
               </a>
             </li>
             <li className="nav-item">
