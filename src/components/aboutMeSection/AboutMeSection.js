@@ -1,7 +1,7 @@
 import React from "react";
-import author from "../assets/images/me.JPG";
+import author from "../../assets/images/me.JPG";
 
-function AboutMe() {
+function AboutMeSection() {
   return (
     <div className="container">
       <div className="row about-me">
@@ -24,8 +24,10 @@ function AboutMe() {
             and laptop or desktops.
             <br />
             <br />
-            Before begining to develop any WebApp, Landing Page, Business
-            Website or E-Commerce, I design a sketch of what the client desires.
+            Before begining to develop any Business website, landing page, web
+            app or E-Commerce, I will design a sketch of what the client desires
+            which meets their business requirements.
+            <br />
             <br />I will discuss all the details of your niche with you and
             conduct a survey with all of your competitors to make a list of
             their advantages and weaknesses. This is necessary to provide your
@@ -38,4 +40,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default AboutMeSection;

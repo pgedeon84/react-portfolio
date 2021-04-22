@@ -1,6 +1,6 @@
 import TypedReactDemo from "../../utilities/TypedReactDemo";
 
-function Header() {
+function HeaderSection() {
   return (
     <div>
       <header className="header-wrapper">
@@ -23,4 +23,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderSection;

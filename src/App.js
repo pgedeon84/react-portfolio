@@ -1,9 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./components/layout/Layout";
-import Header from "./components/header/Header";
+import Header from "./components/headerSection/HeaderSection";
 import ReactParticles from "./utilities/ReactParticles";
-import AboutMe from "./components/aboutMe/AboutMe";
+import AboutMe from "./components/aboutMeSection/AboutMeSection";
+import ServicesSection from "./components/servicesSection/ServicesSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ReactParticles />
         <Header />
         <AboutMe />
+        <ServicesSection />
       </Layout>
     </div>
   );
