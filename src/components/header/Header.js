@@ -1,4 +1,4 @@
-import TypedReactDemo from "../utilities/TypedReactDemo";
+import TypedReactDemo from "../../utilities/TypedReactDemo";
 
 function Header() {
   return (
@@ -8,10 +8,10 @@ function Header() {
           <h1>Web and App Development for you</h1>
           <TypedReactDemo
             strings={[
-              "^1200 Need a Web or App Design?",
-              "^900 Need E-Commerce Services?",
-              "^900 Need an E-Portfolio for your Company?",
-              "^900 We've got you covered",
+              "^1000 Need an App or Web Design?",
+              "Need E-Commerce services?",
+              "Need an online Portfolio for your Company?",
+              "We've got you covered!",
             ]}
           />
           <a href="#" className="btn-main-offer">

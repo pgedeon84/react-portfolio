@@ -12,10 +12,10 @@ class TypedReactDemo extends React.Component {
       typeSpeed: 40,
       backSpeed: 30,
       loop: "infinity",
-      backDelay: 950,
+      backDelay: 1500,
       fadeOut: true,
       fadeOutClass: "typed-fade-out",
-      fadeOutDelay: 900,
+      fadeOutDelay: 1500,
     };
 
     // this.el refers to the <span> in the render() method

@@ -59,7 +59,7 @@
     outline: none ;
  }
 
- /****************************** HEADER ***********************/
+/****************************** HEADER ***********************/
 
 .header-wrapper {
     position: relative;
@@ -123,27 +123,30 @@
     z-index: 1;
 }
 
+/****************************** About Us **************************/
+
+.photo-wrapper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.profile-img {
+    width: 16rem;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1px solid var(--primary-orange)
+}
+
+.about-heading {
+    color: var(--primary-purple);
+    text-transform: capitalize;
+}
+
+
 @media(max-width: 768px) {
-    .particles-canvas {
-        display: none;
-    }
 
-     .main-info h1 {
-         font-size: 1.5rem !important;
-     }
-
-     .btn-main-offer {
-          padding:0.225rem 0.35rem 0.35rem 0.35rem; 
-     }
-
-     .btn-main-offer a {
-            font-size: .8rem !important;
-     } 
-
-    .typed {
-        font-size: 1.1rem;
-    }
-    
     .navbar-brand {
         max-width: 9.25rem;
         padding: 0 !important;
@@ -151,4 +154,34 @@
         font-size: 1.5rem !important;
         padding: .3rem !important;
     }
+
+    .main-info h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .btn-main-offer {
+        padding: 0.225rem 0.35rem 0.35rem 0.35rem;
+    }
+
+    .btn-main-offer a {
+        font-size: .8rem !important;
+    }
+
+    .typed {
+        font-size: 1.1rem;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        width: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-heading {
+        font-size: 2rem;
+    }
+
 }
