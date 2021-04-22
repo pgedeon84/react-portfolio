@@ -5,6 +5,7 @@ import Header from "./components/headerSection/HeaderSection";
 import ReactParticles from "./utilities/ReactParticles";
 import AboutMe from "./components/aboutMeSection/AboutMeSection";
 import ServicesSection from "./components/servicesSection/ServicesSection";
+import ExperienceSection from "./components/experienceSection/ExperienceSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <AboutMe />
         <ServicesSection />
+        <ExperienceSection />
       </Layout>
     </div>
   );

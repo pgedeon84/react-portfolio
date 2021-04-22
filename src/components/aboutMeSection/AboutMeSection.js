@@ -25,14 +25,14 @@ function AboutMeSection() {
             <br />
             <br />
             Before begining to develop any Business website, landing page, web
-            app or E-Commerce, I will design a sketch of what the client desires
-            which meets their business requirements.
+            app or E-Commerce store, I will design a sketch of what you desire
+            which meets your business needs and requirements.
             <br />
             <br />I will discuss all the details of your niche with you and
             conduct a survey with all of your competitors to make a list of
-            their advantages and weaknesses. This is necessary to provide your
-            potential customers something that your competitors do not provide,
-            or to present it too, but better!
+            their advantages and disadvantages. I do this to provide your
+            potential customers something that your competitors do not provide
+            and to increases the chance of them returning!
           </p>
         </div>
       </div>

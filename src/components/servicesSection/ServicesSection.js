@@ -13,7 +13,7 @@ function ServicesSection() {
       <h1 className="py-5">How can I help you?</h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
@@ -23,7 +23,7 @@ function ServicesSection() {
             </div>
           </div>
           {/* - */}
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faStore} size="2x" />
@@ -35,7 +35,7 @@ function ServicesSection() {
             </div>
           </div>
           {/* - */}
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faImages} size="2x" />
@@ -44,7 +44,7 @@ function ServicesSection() {
               <p>Grow your brand by Globalizing your Work.</p>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon

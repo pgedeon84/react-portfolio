@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                how i work
+                experience
               </a>
             </li>
             <li className="nav-item">
