@@ -7,6 +7,7 @@ import AboutMe from "./components/aboutMeSection/AboutMeSection";
 import ServicesSection from "./components/servicesSection/ServicesSection";
 import ExperienceSection from "./components/experienceSection/ExperienceSection";
 import PortfolioSection from "./components/portfolioSection/PortfolioSection";
+import TestimonialSection from "./components/testimonialSection/TestimonialSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ServicesSection />
         <ExperienceSection />
         <PortfolioSection />
+        <TestimonialSection />
       </Layout>
     </div>
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import loruki from "../../assets/images/loruki.png";
 import coffeeShop from "../../assets/images/coffee-shop.png";
 import clubxp from "../../assets/images/clubxp.png";
