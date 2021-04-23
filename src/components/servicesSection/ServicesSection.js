@@ -1,16 +1,16 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faImages,
   faNetworkWired,
   faStore,
   faFileCode,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 function ServicesSection() {
   return (
     <div className="services">
-      <h1 className="py-5">How can I help you?</h1>
+      <h1 className="py-5">Services</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6">

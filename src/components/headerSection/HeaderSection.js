@@ -8,7 +8,7 @@ function HeaderSection() {
           <h1>Web and App Development for you</h1>
           <TypedReactDemo
             strings={[
-              "^1000 Need an App or Web Design?",
+              "^1000 Need an App or a Website?",
               "Need E-Commerce services?",
               "Need an online Portfolio for your Company?",
               "We've got you covered!",

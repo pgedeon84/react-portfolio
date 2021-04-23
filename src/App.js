@@ -6,6 +6,7 @@ import ReactParticles from "./utilities/ReactParticles";
 import AboutMe from "./components/aboutMeSection/AboutMeSection";
 import ServicesSection from "./components/servicesSection/ServicesSection";
 import ExperienceSection from "./components/experienceSection/ExperienceSection";
+import PortfolioSection from "./components/portfolioSection/PortfolioSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <AboutMe />
         <ServicesSection />
         <ExperienceSection />
+        <PortfolioSection />
       </Layout>
     </div>
   );
