@@ -12,12 +12,13 @@
      --primary-grey: #ccd1d9;
      --primary-light-grey: #f4f4f471;
      --primary-dark-grey: #666666;
+     --primary-black: #000000;
      --primary-light-purple: #5b37c808;
      --primary-dark-purple: #101231;
      --primary-purple: #6A49Ca;
      --primary-watermelon: #fa685b;
      --primary-error-yellow: #f1aa40;
-     --primary-success-blue: #419ee4;
+     --primary-success-blue: #002b92;
     }
     
 /****************************** NAVBAR ***********************/
@@ -75,7 +76,7 @@
     background: url('./assets/images/background-img.png');
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     
 }
 
@@ -86,7 +87,7 @@
     padding-top: 1rem;
     justify-content: center;
     text-align: center;
-    height: 90vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -394,6 +395,9 @@
     background-color: transparent !important;
     padding-top: 3rem;
     /* height: 100% !important; */
+     box-shadow: 1px 8px 12px -2px rgba(0, 0, 0, 0.37);
+     -webkit-box-shadow: 1px 8px 12px -2px rgba(0, 0, 0, 0.37);
+     -moz-box-shadow: 1px 8px 12px -2px rgba(0, 0, 0, 0.37);
 }
 
 .carousel .slide img {
@@ -425,6 +429,7 @@
 
 .carousel-root {
     margin: auto !important;
+    
     /* margin-top: 3%; */
    
 }
@@ -481,7 +486,7 @@
 }
 
 .contact textarea {
-    height: 12.2rem !important;
+    height: 16.7rem !important;
 }
 
 .contact-btn {
@@ -527,7 +532,32 @@ input:focus+.line, textarea:focus+.line {
 
 .error-message {
     color: var(--primary-error-yellow);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
    
+}
+
+/****************************** Footer **************************/
+
+.footer {
+    background-color: var(--primary-black);
+    color: var(--secondary-white-transparent);
+    padding: 7rem 3rem;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--secondary-white-transparent)
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: var(--primary-watermelon);
+    cursor: pointer;
+}
+
+.footer p {
+    margin-bottom: 0;
 }
 
 @media(max-width: 768px) {

@@ -3,7 +3,7 @@ import author from "../../assets/images/me.JPG";
 
 function AboutMeSection() {
   return (
-    <div className="container">
+    <div id="about" className="container">
       <div className="row about-me">
         <div className="col-lg-6 col-xs-12">
           <div className="photo-wrapper">

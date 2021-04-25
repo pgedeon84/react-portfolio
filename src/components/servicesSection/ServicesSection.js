@@ -9,7 +9,7 @@ import React from "react";
 
 function ServicesSection() {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <h1 className="py-5">Services</h1>
       <div className="container">
         <div className="row">

@@ -3,7 +3,7 @@ import TypedReactDemo from "../../utilities/TypedReactDemo";
 function HeaderSection() {
   return (
     <div>
-      <header className="header-wrapper">
+      <header id="home" className="header-wrapper">
         <div className="main-info">
           <h1>Web and App Development for you</h1>
           <TypedReactDemo
