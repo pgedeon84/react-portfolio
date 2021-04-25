@@ -15,7 +15,9 @@
      --primary-light-purple: #5b37c808;
      --primary-dark-purple: #101231;
      --primary-purple: #6A49Ca;
-     --primary-orange: #fa685b;
+     --primary-watermelon: #fa685b;
+     --primary-error-yellow: #f1aa40;
+     --primary-success-blue: #419ee4;
     }
     
 /****************************** NAVBAR ***********************/
@@ -33,7 +35,7 @@
     margin: .8rem 0;
     font-size: 2rem !important;
     color:  var(--primary-white)!important;
-    background-color: var(--primary-orange);
+    background-color: var(--primary-watermelon);
     font-weight: bold;
     padding: .5rem !important;
     border-radius: 0 1.5rem 0 1.5rem;
@@ -58,7 +60,7 @@
  .navbar-nav>li>a:active,
  .navbar-nav>li>a:focus,
  .navbar-nav>li>a:hover {
-     border-top: 0.1875rem solid var(--primary-orange);
+     border-top: 0.1875rem solid var(--primary-watermelon);
      
  }
 
@@ -89,7 +91,7 @@
 }
 
 .main-info h1 {
-    color: var(--primary-orange);
+    color: var(--primary-watermelon);
 }
 
 /* -------- Main Offer Button --------- */
@@ -104,19 +106,20 @@
 .btn-main-offer {
     border: 2px solid var(--primary-purple);
     text-transform: uppercase;
-    color: var(--primary-orange);
+    color: var(--primary-watermelon);
     padding:0.625rem 0.75rem 0.75rem 0.75rem;
     margin: 2rem;
     border-radius: 5px;
     box-shadow: 0px 6px 33px 3px rgba(0, 0, 0, 0.61);
     z-index: 10;
+    outline: none;
 }
 
 .btn-main-offer:hover {
     text-decoration: none !important;
     color: var(--primary-white);
-    background-color: var(--primary-orange);
-    border: 2px solid var(--primary-orange);
+    background-color: var(--primary-watermelon);
+    border: 2px solid var(--primary-watermelon);
     transition: 100ms ease-in-out;
 }
 
@@ -151,7 +154,7 @@
     width: 16rem;
     border-radius: 50%;
     padding: .3rem;
-    border: 1px solid var(--primary-orange);
+    border: 1px solid var(--primary-watermelon);
 }
 
 .about-heading {
@@ -175,7 +178,7 @@
 .services .circle {
     position: relative;
     margin: 0.375rem auto;
-    background-color: var(--primary-orange);
+    background-color: var(--primary-watermelon);
     border-radius: 50%;
     width: 3.125rem;
     height: 3.125rem;
@@ -217,7 +220,7 @@
 }
 
 .services .box:hover p {
-    color: var(--primary-orange);
+    color: var(--primary-watermelon);
 }
 .services .box:hover .circle {
     background-color: var(--primary-purple);
@@ -295,7 +298,7 @@
 
 .portfolio-wrapper {
     background-color: var(--primary-light-purple);
-    padding: 3rem 0;
+    padding: 1rem 0 6rem 0;
 }
 
 .portfolio-wrapper h1 {
@@ -332,14 +335,14 @@
 .portfolio-image-box:hover .overflow {
     opacity: .4;
     transition: 300ms ease-in-out;
-    border: 1px solid var(--primary-orange);
+    border: 1px solid var(--primary-watermelon);
 }
 
 .portfolio-icon {
     position: absolute;
     opacity: 0;
     margin: 4rem 0 0 -8rem;
-    color: var(--primary-orange);
+    color: var(--primary-watermelon);
     font-size: 1.5rem;
 }
 
@@ -368,7 +371,7 @@
     background-size: cover;
     background-color: var(--primary-dark-purple);
     text-align: center;
-    padding-bottom: 4rem;
+    padding: 2rem 0 5rem 0;
     margin-bottom: 0;
     width: 100%;
 }
@@ -376,14 +379,13 @@
 .testimonial h1 {
     color: var(--primary-purple);
     text-transform: capitalize;
-    padding: 3rem 0;
+    padding: 2rem 0 3rem 0;
 }
 
 .testimonial-content {
     text-align: center;
     max-width: 53.125rem;
     margin: 0 auto 2rem auto;
-    background-color: var(--secondary-white-transparent);
     border: 2px solid #ffffff;
     border-radius: 5px;
 }
@@ -427,6 +429,106 @@
    
 }
 
+/****************************** Contact **************************/
+
+.contact {
+    background-color: var(--primary-dark-purple);
+    padding: 3rem 0;
+}
+
+.contact h1 {
+    color: var(--primary-watermelon);
+    padding: 1.3rem 0;
+    text-transform: capitalize;
+}
+
+.contact p {
+    color: var(--primary-light-grey);
+    font-size: 1.2rem;
+}
+
+/* -------- Contact form --------- */
+
+.contact input, .contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--primary-dark-grey);
+    border-radius: 0;
+    color: var(--primary-watermelon);
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-left: 0.2rem;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact .container {
+    padding: 4rem 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    background: var(--primary-dark-purple);
+    color: var(--primary-watermelon);
+    border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contact textarea {
+    height: 12.2rem !important;
+}
+
+.contact-btn {
+   margin: 1rem 0 0 0;
+   width: 100%;
+   background: none; 
+}
+
+internal-autofill-previewed,
+input:-internal-autofill-selected,
+textarea:-internal-autofill-previewed,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-previewed,
+select:-internal-autofill-selected {
+    background-color: var(--primary-dark-purple) !important;
+    background-image: none !important;
+    color: var(--primary-watermelon) !important;
+}
+
+.line {
+    position: relative;
+    width: 0;
+    height: 0.125rem;
+    background-color: var(--primary-watermelon);
+    display: inline-block;
+    top: -0.75rem;
+}
+
+input.form-control, textarea.form-control {
+    margin: -0.3rem 0;
+}
+
+input:focus+.line, textarea:focus+.line {
+    width: 100%;
+    transition: 500ms ease-in-out;
+
+}
+
+.success-message {
+    font-weight: 900;
+    color: var(--primary-success-blue);
+}
+
+.error-message {
+    color: var(--primary-error-yellow);
+   
+}
 
 @media(max-width: 768px) {
 
@@ -510,6 +612,16 @@
         width: auto !important;
     }
 
+    .contact {
+        overflow-x: hidden;
+    }
+    .contact .container {
+        padding: 0 1rem;
+    }
+
+    .contact p {
+        padding: 0 0.6rem;
+    }
 }
 
 @media(max-height: 500px) {

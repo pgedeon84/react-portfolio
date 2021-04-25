@@ -21,9 +21,9 @@ function TestimonialCarousel() {
         <div className="carousel-content">
           <h3>Jane Doe</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            possimus sit molestias odit beatae ea excepturi! Vel illum eius
-            iure.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+            laudantium earum illo neque dolorem harum ipsam quae cumque, itaque
+            error hic, molestiae ratione odit quasi autem consectetur enim!
           </p>
         </div>
       </>
@@ -32,9 +32,9 @@ function TestimonialCarousel() {
         <div className="carousel-content">
           <h3>Rashawd Doe</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            possimus sit molestias odit beatae ea excepturi! Vel illum eius
-            iure.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            inventore corrupti corporis doloribus incidunt aut dolore facilis
+            necessitatibus? Dolor aspernatur necessitatibus dolore at nemo?
           </p>
         </div>
       </>
@@ -54,9 +54,10 @@ function TestimonialCarousel() {
         <div className="carousel-content">
           <h3>Wang Dough</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            possimus sit molestias odit beatae ea excepturi! Vel illum eius
-            iure.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            voluptatum ratione reiciendis nemo, quasi tempora dolores,
+            repellendus provident eius quibusdam optio fuga, at omnis neque
+            quisquam deleniti adipisci itaque consectetur.
           </p>
         </div>
       </>
