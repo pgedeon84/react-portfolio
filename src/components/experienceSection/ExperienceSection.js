@@ -22,11 +22,10 @@ function ExperienceSection() {
           <div className="timeline-content">
             <h3>2018-2019</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-              ipsum. Eum alias repudiandae dicta. Cupiditate cumque quod hic
-              veniam? Sit maxime libero nam commodi assumenda laboriosam enim
-              mollitia ratione doloremque ad sint fugit reprehenderit porro
-              similique quia, esse odio. Quidem.
+              I attended Le Wagon Coding Bootcamp where I first learned the
+              basics and fundamentals of web development using HTML5, CSS3 and
+              JavaScript. I also learned to use Ruby as a backend language
+              implemented with the Rails framework using the MVC model.
             </p>
           </div>
         </div>
@@ -36,11 +35,12 @@ function ExperienceSection() {
           <div className="timeline-content">
             <h3>2019-2020</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-              ipsum. Eum alias repudiandae dicta. Cupiditate cumque quod hic
-              veniam? Sit maxime libero nam commodi assumenda laboriosam enim
-              mollitia ratione doloremque ad sint fugit reprehenderit porro
-              similique quia, esse odio. Quidem.
+              After attending the bootcamp, my thirst for coding and hunger to
+              become an even better programmer let me to learn more. Which led
+              me to the journey of learning a JavaScript framework. I was first
+              introduced to ReactJS framework at school and decided to learn it
+              more in depth. I watched YouTube videos for countless hours until
+              I got a good understanding of the framework.
             </p>
           </div>
         </div>

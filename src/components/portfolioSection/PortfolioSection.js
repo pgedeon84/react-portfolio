@@ -64,7 +64,7 @@ function PortfolioSection() {
     <div
       id="portfolio"
       className="portfolio-wrapper"
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-delay="100"
       data-aos-easing="ease-in-out"
       data-aos-duration="1000"
