@@ -9,7 +9,7 @@ function TestimonialSection() {
     <div
       id="testimonial"
       className="testimonial"
-      data-aos="fade-up"
+      data-aos="fade-in"
       data-aos-delay="100"
       data-aos-easing="ease-in-out"
       data-aos-duration="1000"
