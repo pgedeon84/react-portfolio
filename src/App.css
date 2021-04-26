@@ -368,10 +368,11 @@ html {
 .popup-content {
     background: var(--primary-dark-purple) !important;
     animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+    /* width: auto !important; */
 }
 
 .popup-img {
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -688,45 +689,6 @@ input:focus+.line, textarea:focus+.line {
     }
 }
 
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromBottom {
-    0% {
-        transform: translateY(100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
 
 /* animation */
 
