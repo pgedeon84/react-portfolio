@@ -5,11 +5,21 @@ import {
   faStore,
   faFileCode,
 } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
 
 function ServicesSection() {
   return (
-    <div id="services" className="services">
+    <div
+      id="services"
+      className="services"
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+    >
       <h1 className="py-5">Services</h1>
       <div className="container">
         <div className="row">

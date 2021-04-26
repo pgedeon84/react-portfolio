@@ -1,6 +1,18 @@
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
+
 function ExperienceSection() {
   return (
-    <div id="experience" className="experience">
+    <div
+      id="experience"
+      className="experience"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1500"
+    >
       <div className="d-flex justify-content-center my-5">
         <h1>Experience</h1>
       </div>
