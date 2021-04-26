@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import {
   FacebookIcon,
   FacebookShareButton,
@@ -33,18 +34,66 @@ function FooterSection() {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-100}
+                  to="home"
+                  href="#"
+                >
+                  Home
+                </Link>
                 <br />
-                <a className="footer-nav">About me</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-225}
+                  to="about"
+                  href="#"
+                >
+                  About me
+                </Link>
                 <br />
-                <a className="footer-nav">Services</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-100}
+                  to="services"
+                  href="#"
+                >
+                  Services
+                </Link>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-110}
+                  to="experience"
+                  href="#"
+                >
+                  Experience
+                </Link>
                 <br />
-                <a className="footer-nav">Portfolio</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-200}
+                  to="portfolio"
+                  href="#"
+                >
+                  Portfolio
+                </Link>
                 <br />
-                <a className="footer-nav">Contact</a>
+                <Link
+                  className="footer-nav"
+                  smooth={true}
+                  offset={-100}
+                  to="contact"
+                  href="#"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
