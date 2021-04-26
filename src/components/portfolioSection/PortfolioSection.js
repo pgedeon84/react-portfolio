@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
 
 function PortfolioSection() {
   const lorukiProject = (
@@ -57,7 +61,14 @@ function PortfolioSection() {
   );
 
   return (
-    <div id="portfolio" className="portfolio-wrapper">
+    <div
+      id="portfolio"
+      className="portfolio-wrapper"
+      data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+    >
       <div className="container">
         <h1 className="text-center text-capitalize py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
@@ -90,7 +101,6 @@ function PortfolioSection() {
           </Popup>
         </div>
       </div>
-      ;
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Navbar() {
       <div className="container">
         <Link
           smooth={true}
-          offset={-110}
+          offset={-100}
           to="home"
           className="navbar-brand"
           href="#"
@@ -46,7 +46,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 smooth={true}
-                offset={-130}
+                offset={-225}
                 to="about"
                 className="nav-link"
                 href="#"
@@ -68,7 +68,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 smooth={true}
-                offset={-100}
+                offset={-110}
                 to="experience"
                 className="nav-link"
                 href="#"
@@ -79,7 +79,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 smooth={true}
-                offset={-100}
+                offset={-200}
                 to="portfolio"
                 className="nav-link"
                 href="#"
@@ -90,7 +90,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 smooth={true}
-                offset={-100}
+                offset={-140}
                 to="testimonial"
                 className="nav-link"
                 href="#"

@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import TypedReactDemo from "../../utilities/TypedReactDemo";
 
 function HeaderSection() {
@@ -14,9 +15,15 @@ function HeaderSection() {
               "We've got you covered!",
             ]}
           />
-          <a href="#" className="btn-main-offer">
+          <Link
+            smooth={true}
+            offset={-100}
+            to="contact"
+            href="#"
+            className="btn-main-offer"
+          >
             contact us
-          </a>
+          </Link>
         </div>
       </header>
     </div>

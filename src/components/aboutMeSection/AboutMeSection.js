@@ -1,10 +1,21 @@
 import React from "react";
 import author from "../../assets/images/me.JPG";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
 
 function AboutMeSection() {
   return (
-    <div id="about" className="container">
-      <div className="row about-me">
+    <div
+      id="about"
+      className="container about-me"
+      data-aos="fade-in"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+    >
+      <div className="row">
         <div className="col-lg-6 col-xs-12">
           <div className="photo-wrapper">
             <img className="profile-img" src={author} alt="Avatar" />
