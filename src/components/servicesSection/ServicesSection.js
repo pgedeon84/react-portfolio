@@ -15,7 +15,7 @@ function ServicesSection() {
     <div
       id="services"
       className="services"
-      data-aos="fade-right"
+      data-aos="fade-in"
       data-aos-delay="100"
       data-aos-easing="ease-in-out"
       data-aos-duration="1000"
